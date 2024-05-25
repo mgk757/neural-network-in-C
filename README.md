@@ -8,7 +8,7 @@ I use xor data to learn parameters.
 # API
 All api contained in nn.h.
 
-arch: neural network architecture ( ex: arch = {2,4,4,1} 2 nodes input, two layers which have 4 nodes and output is 1 node.) 
+arch: neural network architecture ( ex: arch = {2,4,4,1} 2 nodes input, two hidden layers which have 4 nodes, output is 1 node.) 
 
 nn = nn_alloc(arch, length) -> allocate memory which shape arch.
 
