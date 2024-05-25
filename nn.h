@@ -7,7 +7,7 @@
 #include<assert.h>
 
 typedef struct {
-	int rows;
+	int rows; 
 	int cols;
 	int stride;
 	float* es;
