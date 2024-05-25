@@ -5,6 +5,9 @@ This network can learn binary dataset.
 
 I use xor data to learn parameters. 
 
+의도: neural network 구현해보기
+
+
 # API
 All api contained in nn.h.
 
