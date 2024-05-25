@@ -18,7 +18,7 @@ int main(void) {
 	Mat ti = { n, 2, stride, td };
 	Mat to = { n, 1, stride, td + 2 };
 
-	int arch[] = {2,2,1};
+	int arch[] = {2,2,2,1};
 	NN nn = nn_alloc(arch, ARRAY_LEN(arch));
 	NN g = nn_alloc(arch, ARRAY_LEN(arch));
 	nn_rand(nn, 0, 1);
