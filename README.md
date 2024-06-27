@@ -1,5 +1,5 @@
 # neural-network-in-C
-Implement neural network in C.
+Implement neural network in C..
 
 This network can learn binary dataset.
 
